@@ -1,0 +1,202 @@
+.footer-box p,
+.footer-box a {
+    font-size: 15px;
+    color: #ccc;
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+    gap: 50px;
+    
+}
+.footer-box span:hover {
+    color: #ff9800;
+}
+.footer-box a:hover {
+    color: #fff;
+}
+.card-container {
+  height: 80vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-black {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 45%;
+  height: 55%;
+  border-radius: 10px;
+  background: #000000;
+}
+.card-black img:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.card-black img {
+  border: 5px solid orange;
+  border-radius: 180px;
+  width: 180px;
+  height: 180px;
+  margin-left: 20px;
+}
+.card-contai {
+  color: white;
+}
+.card-contai button {
+  background-color: rgb(253, 208, 63);
+  padding: 3px 50px;
+  border-radius: 50px;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-around;
+  color: white;
+}
+.card-contai button:hover{
+  background-color: orangered;
+  box-shadow: 2px 3px 40px orangered;
+  transform: translateY(-3px);
+  transition: 0.2s;
+}
+.card-contai button i {
+  font-size: 25px;
+}
+.card-container{
+    height: 80vh;
+}
+.social-icons {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 19px;
+    margin: 0 8px;
+    transition: 0.3s;
+}
+.social-icons a:hover {
+    color: #ff9800;
+}
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+.footer-box i:hover {
+    color: #ff9800;
+}
+.card-contai button i{
+    font-size: 25px;
+}
+.card-contai button i:hover{
+    color: orange;
+   
+}
+.our-menu{
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+.menu h1{
+    font-size: 40px;
+}
+.letter{
+  line-height: 1.5;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin-top: 30px;
+    li{
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+
+}
+.menu ul li a:hover{
+     background-color: rgba(0, 0, 0, 0.904);
+     padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+
+}
+#active{
+    background-color: rgba(0, 0, 0, 0.904);
+    padding: 6px 20px;
+    border-radius: 20px;
+    color: white;
+}
+.menu h1{
+    text-align: center;
+}
+.item-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+    padding: 0px 40px;
+}
+.card img{
+    width: 100%;
+    border-radius: 20px 20px 0px 50px;
+}
+.card{
+    font-family: Arial;
+    width: 100%;
+    box-shadow: 2px 5px 20px rgb(192, 192, 192);
+    background-color: black;
+    color: rgb(231, 231, 231);
+    border-radius: 20px;
+     
+}
+.card:hover{
+  box-shadow: 2px 4px 40px gray;
+  transform: translateY(-5px);
+  transition: 0.5s;
+
+
+}
+.cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+.cost i{
+    color: white;
+    font-size: 20px;
+}
+.cost button:hover{
+    background-color: rgb(235, 82, 26);
+    box-shadow: 1px 2px 20px rgb(255, 98, 41);
+}
+.cost button{
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.letter{
+    padding: 23px;
+}
+.cost .price{
+    color: orange;
+}
+span{
+    gap: 50px;
+    font-size: 14px;
+    color: #bbb;
+}
