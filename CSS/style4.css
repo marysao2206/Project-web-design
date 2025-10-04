@@ -100,10 +100,10 @@ body {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
-  max-width: 1200px;
+  max-width: 2000px;
   margin: auto;
   padding: 20px;
-  margin: 100px;
+  /* margin: 100px; */
 }
 
 .card {
@@ -116,7 +116,7 @@ body {
 
 .card img {
   width: 100%;
-  height: 160px;
+  height: 200px;
   object-fit: cover;
 }
 
