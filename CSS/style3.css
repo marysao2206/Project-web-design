@@ -11,7 +11,6 @@
 
 body {
   height: 100vh;
-  /* background: linear-gradient(to left bottom, rgba(243, 241, 240, 0.988), rgba(62, 12, 226, 0.955)); */
 }
 
 .nav {
@@ -103,7 +102,6 @@ body {
     font-size: 25px;
   }
 }
-/* General Reset */
 * {
   margin: 0;
   padding: 0;
@@ -111,7 +109,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -202,8 +199,6 @@ footer {
   }
 }
 .form-contict{
-  /* height: 100vh; */
-  /* background-color: cadetblue; */
   margin: 50px 40px;
 }
 .form-container{

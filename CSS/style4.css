@@ -8,23 +8,15 @@ body {
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   height: 100vh;
-  /* background: linear-gradient(to left bottom, rgba(243, 241, 240, 0.988), rgba(62, 12, 226, 0.955)); */
 }
 
 .nav {
   background-color: rgba(10, 174, 1, 0.625);
-  width: 100%;
-  position: fixed;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.nav {
   width: 100%;
   position: fixed;
   display: flex;
@@ -321,7 +313,6 @@ footer {
 }
 /* ===== Responsive ===== */
 
-/* Tablets */
 @media (max-width: 1024px) {
   .container {
     grid-template-columns: repeat(2, 1fr);
@@ -347,7 +338,7 @@ footer {
   }
 
   .nav-center {
-    display: none; /* hide menu initially */
+    display: none; 
     width: 100%;
     flex-direction: column;
     gap: 10px;

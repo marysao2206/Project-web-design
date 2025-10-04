@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
   height: 100vh;
-  /* background: linear-gradient(to left bottom, rgba(243, 241, 240, 0.988), rgba(62, 12, 226, 0.955)); */
 }
 .nav {
   background-color: rgba(10, 174, 1, 0.625);
@@ -35,19 +35,6 @@ body {
   flex-direction: column-reverse;
   color: #ffffff;
 }
-
-.nav-left img {
-  width: 100px;
-}
-
-.nav-left h1 {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column-reverse;
-  color: #ffffff;
-}
-
 .nav-center {
   ul {
     display: flex;
@@ -66,12 +53,6 @@ body {
 
   }
 }
-
-.nav-right .btn:hover {
-  background-color: orangered;
-  box-shadow: 1px 4px 20px rgb(238, 107, 7);
-}
-
 .nav-center {
   ul {
     display: flex;
@@ -102,16 +83,15 @@ body {
     border-radius: 30px;
     font-size: large;
   }
-
   i {
     color: white;
     font-size: 25px;
   }
 }
+
 .form-contict{
-  /* height: 100vh; */
-  /* background-color: cadetblue; */
-  margin: 50px 40px;
+  margin: 0px 40px;
+  /* gap: 50px; */
 }
 .form-container{
   font-size: 4vh;
@@ -119,6 +99,9 @@ body {
 .form-map-1{
   display: flex;
   justify-content: space-between;
+}
+.hero,.form-contict{
+  gap: 50px;
 }
 .form{
   display: flex;
@@ -144,7 +127,6 @@ footer {
   max-width: 1200px;
   margin: auto;
 }
-
 .footer-col h3 {
   margin-bottom: 15px;
   font-size: 16px;
@@ -198,4 +180,18 @@ footer {
   text-align: center;
   padding: 15px;
   margin-top: 40px;
+}
+.hero {
+  background: url("https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1500&q=80") center/cover no-repeat;
+  color: #fff;
+  padding: 100px 42%;
+  text-align: center;
+  gap: 50px;
+}
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.hero p {
+  font-size: 1.2rem;
 }
