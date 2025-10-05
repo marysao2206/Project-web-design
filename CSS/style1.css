@@ -95,7 +95,6 @@ body {
 
 .form-contict{
   margin: 0px 40px;
-  /* gap: 50px; */
 }
 .form-container{
   font-size: 4vh;
@@ -123,7 +122,11 @@ footer {
   color: white;
   padding: 40px 20px;
 }
-
+.but{
+    transition: 0.5s;
+  transform: scale(1.1);
+  background-color: orangered;
+}
 .footer-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

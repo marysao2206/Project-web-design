@@ -125,7 +125,11 @@ body {
       display: block;
       transition: transform .6s ease;
     }
-
+.card figure :hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+  background-color: #16a34a;
+}
   .card .meta {
     padding: 12px 14px 16px;
   }
